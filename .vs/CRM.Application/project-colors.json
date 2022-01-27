@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "db85b95a-b0b0-4811-9bc0-bb1ba6893d77": {
+      "ProjectGuid": "db85b95a-b0b0-4811-9bc0-bb1ba6893d77",
+      "DisplayName": "CRM.Application",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
