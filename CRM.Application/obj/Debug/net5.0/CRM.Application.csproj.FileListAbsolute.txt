@@ -58,3 +58,4 @@ E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\CRM.Applicati
 E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\ref\CRM.Application.dll
 E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\CRM.Application.pdb
 E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\CRM.Application.genruntimeconfig.cache
+E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\CRM.Application.csproj.AssemblyReference.cache

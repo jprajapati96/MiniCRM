@@ -1,6 +1,8 @@
 using CRM.Application.CustomerDbContext;
 using CRM.Application.Repository.Interface.Customer;
+using CRM.Application.Repository.Interface.User;
 using CRM.Application.Repository.Service.Customer;
+using CRM.Application.Repository.Service.User;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -41,6 +43,7 @@ namespace CRM.Application
             });
 
             services.AddScoped<ICustomerRepository, CustomerRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
