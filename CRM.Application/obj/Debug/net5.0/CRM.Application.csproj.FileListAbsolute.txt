@@ -1,3 +1,9 @@
+E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\CRM.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\CRM.Application.AssemblyInfoInputs.cache
+E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\CRM.Application.AssemblyInfo.cs
+E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\CRM.Application.csproj.CoreCompileInputs.cache
+E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\CRM.Application.MvcApplicationPartsAssemblyInfo.cs
+E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\CRM.Application.MvcApplicationPartsAssemblyInfo.cache
 E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\appsettings.Development.json
 E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\appsettings.json
 E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\CRM.Application.exe
@@ -9,6 +15,7 @@ E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\ref\CRM.Appli
 E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\CRM.Application.pdb
 E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\EntityFramework.dll
 E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\Humanizer.dll
+E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
 E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
@@ -23,7 +30,6 @@ E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\Microsoft.Ide
 E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
 E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\Microsoft.OpenApi.dll
-E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\Newtonsoft.Json.dll
 E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
 E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -44,12 +50,6 @@ E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\runtimes\win-
 E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\CRM.Application.GeneratedMSBuildEditorConfig.editorconfig
-E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\CRM.Application.AssemblyInfoInputs.cache
-E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\CRM.Application.AssemblyInfo.cs
-E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\CRM.Application.csproj.CoreCompileInputs.cache
-E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\CRM.Application.MvcApplicationPartsAssemblyInfo.cs
-E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\CRM.Application.MvcApplicationPartsAssemblyInfo.cache
 E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\scopedcss\bundle\CRM.Application.styles.css
 E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\staticwebassets\CRM.Application.StaticWebAssets.Manifest.cache
 E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\CRM.Application.RazorTargetAssemblyInfo.cache
@@ -59,3 +59,7 @@ E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\ref\CRM.Appli
 E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\CRM.Application.pdb
 E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\CRM.Application.genruntimeconfig.cache
 E:\Self Paced\ERP\CRM.Application\CRM.Application\obj\Debug\net5.0\CRM.Application.csproj.AssemblyReference.cache
+E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\System.Net.Http.Formatting.dll
+E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\System.Web.Http.dll
+E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\Newtonsoft.Json.dll
+E:\Self Paced\ERP\CRM.Application\CRM.Application\bin\Debug\net5.0\Swashbuckle.Core.dll

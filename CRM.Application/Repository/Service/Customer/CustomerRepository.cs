@@ -1,6 +1,8 @@
 ﻿using CRM.Application.CustomerDbContext;
 using CRM.Application.Models.Customer;
 using CRM.Application.Repository.Interface.Customer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -15,6 +17,8 @@ namespace CRM.Application.Repository.Service.Customer
         {
             this.customerContext = _customerContext;
         }
+
+        [Authorize]
         public async Task<CustomerViewModel> AddCustomer(CustomerViewModel customer)
         {
              await customerContext.Customers.AddAsync(customer);
@@ -22,6 +26,7 @@ namespace CRM.Application.Repository.Service.Customer
             return customer;
         }
 
+        [Authorize]
         public async Task DeleteCustomer(int id)
         {
             var result = await customerContext.Customers.FirstOrDefaultAsync
@@ -30,7 +35,7 @@ namespace CRM.Application.Repository.Service.Customer
             customerContext.Customers.Remove(result);
             await customerContext.SaveChangesAsync();   
         }
-
+        [Authorize]
         public async Task<CustomerViewModel> GetCustomer(int id)
         {
             var result = await customerContext.Customers.FirstOrDefaultAsync
@@ -39,6 +44,8 @@ namespace CRM.Application.Repository.Service.Customer
             return result;
         }
 
+        [Authorize]
+        [HttpGet]
         public async Task<IEnumerable<CustomerViewModel>> GetCustomerList()
         {
             var customerList = await customerContext.Customers.ToListAsync();
@@ -46,6 +53,7 @@ namespace CRM.Application.Repository.Service.Customer
 
         }
 
+        [Authorize]
         public async Task<CustomerViewModel> UpdateCustomer(CustomerViewModel customer)
         {
             var result = await customerContext.Customers.FirstOrDefaultAsync(
