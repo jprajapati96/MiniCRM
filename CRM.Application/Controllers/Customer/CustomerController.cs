@@ -1,11 +1,13 @@
 ﻿using CRM.Application.Models.Customer;
 using CRM.Application.Repository.Interface.Customer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 
 namespace CRM.Application.Controllers.Customer
 {
+    
     [Route("api/[controller]")]
     [ApiController]
     public class CustomerController : ControllerBase
@@ -17,6 +19,7 @@ namespace CRM.Application.Controllers.Customer
             this._customerRepository = customerRepository;
         }
 
+        [Authorize]
         [HttpPost]
         public async Task<ActionResult<CustomerViewModel>> CreateCustomer(CustomerViewModel customerVM)
         {
@@ -28,6 +31,7 @@ namespace CRM.Application.Controllers.Customer
             return BadRequest();
         }
 
+        [Authorize]
         [HttpGet]
         public async Task<ActionResult<CustomerViewModel>> GetCustomerList()
         {
@@ -35,6 +39,7 @@ namespace CRM.Application.Controllers.Customer
             return Ok(result);
         }
 
+        [Authorize]
         [HttpGet("{customerId}")]
         public async Task<ActionResult<CustomerViewModel>> GetCustomerDetail(int id)
         {
@@ -46,6 +51,7 @@ namespace CRM.Application.Controllers.Customer
             return Ok(customerDetail);
         }
 
+        [Authorize]
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateCustomer(int id, CustomerViewModel customerVM)
         {

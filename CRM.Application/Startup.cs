@@ -63,7 +63,7 @@ namespace CRM.Application
             });
             services.AddSwaggerGen(option =>
             {
-                option.SwaggerDoc("v1", new OpenApiInfo { Title = "Inficare", Version = "v1" });
+                option.SwaggerDoc("v1", new OpenApiInfo { Title = "CRM", Version = "v1" });
                 option.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme()
                 {
                     Name = "Authorization",

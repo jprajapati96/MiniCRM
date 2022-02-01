@@ -19,12 +19,12 @@ namespace CRM.Application.Repository.Service.User
         private readonly CustomerContext customerContext;
         private readonly IConfiguration iconfiguration;
 
-        Dictionary<string, string> UsersRecords = new Dictionary<string, string>
-	{
-		{ "user1","password1"},
-		{ "user2","password2"},
-		{ "user3","password3"},
-	};
+ //       Dictionary<string, string> UsersRecords = new Dictionary<string, string>
+	//{
+	//	{ "user1","password1"},
+	//	{ "user2","password2"},
+	//	{ "user3","password3"},
+	//};
 
         public UserRepository(CustomerContext _customerContext, IConfiguration _iconfiguration)
         {

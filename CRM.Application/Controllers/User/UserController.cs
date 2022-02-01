@@ -21,19 +21,7 @@ namespace CRM.Application.Controllers.User
             this._userRepository = userRepository;
         }
 
-        [Authorize]
-        [HttpGet]
-        public List<string> Get()
-        {
-            var users = new List<string> 
-        {
-            "Satinder Singh",
-            "Amit Sarna",
-            "Davin Jon"
-        };
-
-            return users;
-        }
+      
 
         [AllowAnonymous]
         [HttpPost]
