@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using CRM.Application.Models.User;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CRM.Application.Models.Customer
@@ -9,5 +10,9 @@ namespace CRM.Application.Models.Customer
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int CustomerId { get; set; }
         public string CustomerName { get; set; }
+        public int UserId { get; set; }
+
+        [ForeignKey("UserId")]
+        public UserViewModel userViewModel { get; set; }  
     }
 }
